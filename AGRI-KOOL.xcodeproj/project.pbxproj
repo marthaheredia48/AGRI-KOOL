@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06077E742CB20B170072E9C2 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06077E732CB20B170072E9C2 /* Poppins-Medium.ttf */; };
+		06077E762CB23FEC0072E9C2 /* SIGN IN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06077E752CB23FEC0072E9C2 /* SIGN IN.swift */; };
+		06077E782CB2443C0072E9C2 /* NOTIFICATION.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06077E772CB2443C0072E9C2 /* NOTIFICATION.swift */; };
+		06077E7A2CB247960072E9C2 /* WhatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06077E792CB247960072E9C2 /* WhatsApp.swift */; };
+		06077E7C2CB2497D0072E9C2 /* Previous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06077E7B2CB2497D0072E9C2 /* Previous.swift */; };
+		06077E7E2CB24A450072E9C2 /* Medal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06077E7D2CB24A450072E9C2 /* Medal.swift */; };
+		06077E802CB24AE00072E9C2 /* WEEK1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06077E7F2CB24AE00072E9C2 /* WEEK1.swift */; };
+		06077E822CB24C080072E9C2 /* WEEK2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06077E812CB24C080072E9C2 /* WEEK2.swift */; };
+		06077E842CB24C580072E9C2 /* WEEK 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06077E832CB24C580072E9C2 /* WEEK 3.swift */; };
+		06077E862CB24CE30072E9C2 /* WEEK4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06077E852CB24CE30072E9C2 /* WEEK4.swift */; };
+		06077E882CB24D9F0072E9C2 /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06077E872CB24D9F0072E9C2 /* Greeting.swift */; };
+		06077E8A2CB24E840072E9C2 /* KILO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06077E892CB24E830072E9C2 /* KILO.swift */; };
+		06077E8C2CB24F460072E9C2 /* WEATHER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06077E8B2CB24F460072E9C2 /* WEATHER.swift */; };
+		06077E8E2CB250970072E9C2 /* IRRIGATION.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06077E8D2CB250970072E9C2 /* IRRIGATION.swift */; };
+		06077E902CB250E90072E9C2 /* MEDAL2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06077E8F2CB250E90072E9C2 /* MEDAL2.swift */; };
+		064124F02CAB63240064FE8A /* RAINCARD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064124EF2CAB63240064FE8A /* RAINCARD.swift */; };
+		065121D12CB31ED9005DF211 /* MAPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065121D02CB31ED9005DF211 /* MAPS.swift */; };
+		065121D32CB31F12005DF211 /* MAPVIEW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065121D22CB31F12005DF211 /* MAPVIEW.swift */; };
+		065121D52CB32D24005DF211 /* SoilMoistureData.csv in Resources */ = {isa = PBXBuildFile; fileRef = 065121D42CB32D24005DF211 /* SoilMoistureData.csv */; };
+		066183B12CA36ED20061A2FA /* FRONTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066183B02CA36ED20061A2FA /* FRONTApp.swift */; };
+		066183B32CA36ED20061A2FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066183B22CA36ED20061A2FA /* ContentView.swift */; };
+		066183B82CA36ED40061A2FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 066183B72CA36ED40061A2FA /* Preview Assets.xcassets */; };
+		066183BF2CA36F2B0061A2FA /* RAIN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066183BE2CA36F2B0061A2FA /* RAIN.swift */; };
+		066183C12CA36F360061A2FA /* SOIL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066183C02CA36F360061A2FA /* SOIL.swift */; };
+		066183C32CA36F460061A2FA /* CROPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066183C22CA36F460061A2FA /* CROPS.swift */; };
+		066183CC2CA6157B0061A2FA /* BIENVENIDA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066183CB2CA6157B0061A2FA /* BIENVENIDA.swift */; };
+		066183D02CA72F670061A2FA /* BIENVENIDAFONDO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066183CF2CA72F670061A2FA /* BIENVENIDAFONDO.swift */; };
+		0675A04F2CB2FCD60033C5D1 /* FALLING LEAVES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0675A04E2CB2FCD60033C5D1 /* FALLING LEAVES.swift */; };
+		067ABD4B2CB340810061CACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 067ABD492CB340810061CACF /* Assets.xcassets */; };
+		06A9D9A82CB272EE000C53CD /* SOILDATA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A9D9A72CB272EE000C53CD /* SOILDATA.swift */; };
+		06F3B6582CB35E6100CF42AC /* GOALS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3B6572CB35E6100CF42AC /* GOALS.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06077E702CB1FFAA0072E9C2 /* AGRI-KOOL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AGRI-KOOL-Info.plist"; sourceTree = "<group>"; };
+		06077E732CB20B170072E9C2 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		06077E752CB23FEC0072E9C2 /* SIGN IN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SIGN IN.swift"; sourceTree = "<group>"; };
+		06077E772CB2443C0072E9C2 /* NOTIFICATION.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOTIFICATION.swift; sourceTree = "<group>"; };
+		06077E792CB247960072E9C2 /* WhatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsApp.swift; sourceTree = "<group>"; };
+		06077E7B2CB2497D0072E9C2 /* Previous.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previous.swift; sourceTree = "<group>"; };
+		06077E7D2CB24A450072E9C2 /* Medal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medal.swift; sourceTree = "<group>"; };
+		06077E7F2CB24AE00072E9C2 /* WEEK1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEEK1.swift; sourceTree = "<group>"; };
+		06077E812CB24C080072E9C2 /* WEEK2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEEK2.swift; sourceTree = "<group>"; };
+		06077E832CB24C580072E9C2 /* WEEK 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WEEK 3.swift"; sourceTree = "<group>"; };
+		06077E852CB24CE30072E9C2 /* WEEK4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEEK4.swift; sourceTree = "<group>"; };
+		06077E872CB24D9F0072E9C2 /* Greeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greeting.swift; sourceTree = "<group>"; };
+		06077E892CB24E830072E9C2 /* KILO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KILO.swift; sourceTree = "<group>"; };
+		06077E8B2CB24F460072E9C2 /* WEATHER.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEATHER.swift; sourceTree = "<group>"; };
+		06077E8D2CB250970072E9C2 /* IRRIGATION.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRRIGATION.swift; sourceTree = "<group>"; };
+		06077E8F2CB250E90072E9C2 /* MEDAL2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDAL2.swift; sourceTree = "<group>"; };
+		064124EF2CAB63240064FE8A /* RAINCARD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAINCARD.swift; sourceTree = "<group>"; };
+		065121D02CB31ED9005DF211 /* MAPS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAPS.swift; sourceTree = "<group>"; };
+		065121D22CB31F12005DF211 /* MAPVIEW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAPVIEW.swift; sourceTree = "<group>"; };
+		065121D42CB32D24005DF211 /* SoilMoistureData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SoilMoistureData.csv; sourceTree = "<group>"; };
+		066183AD2CA36ED20061A2FA /* AGRI-KOOL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AGRI-KOOL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		066183B02CA36ED20061A2FA /* FRONTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRONTApp.swift; sourceTree = "<group>"; };
+		066183B22CA36ED20061A2FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		066183B72CA36ED40061A2FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		066183BE2CA36F2B0061A2FA /* RAIN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAIN.swift; sourceTree = "<group>"; };
+		066183C02CA36F360061A2FA /* SOIL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOIL.swift; sourceTree = "<group>"; };
+		066183C22CA36F460061A2FA /* CROPS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CROPS.swift; sourceTree = "<group>"; };
+		066183CB2CA6157B0061A2FA /* BIENVENIDA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BIENVENIDA.swift; sourceTree = "<group>"; };
+		066183CF2CA72F670061A2FA /* BIENVENIDAFONDO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BIENVENIDAFONDO.swift; sourceTree = "<group>"; };
+		0675A04E2CB2FCD60033C5D1 /* FALLING LEAVES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FALLING LEAVES.swift"; sourceTree = "<group>"; };
+		067ABD4A2CB340810061CACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Base; path = Base.lproj/Assets.xcassets; sourceTree = "<group>"; };
+		06A9D9A72CB272EE000C53CD /* SOILDATA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOILDATA.swift; sourceTree = "<group>"; };
+		06F3B6572CB35E6100CF42AC /* GOALS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOALS.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		066183AA2CA36ED20061A2FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		065121D62CB33BF2005DF211 /* Soil */ = {
+			isa = PBXGroup;
+			children = (
+				066183C02CA36F360061A2FA /* SOIL.swift */,
+				06A9D9A72CB272EE000C53CD /* SOILDATA.swift */,
+			);
+			path = Soil;
+			sourceTree = "<group>";
+		};
+		065121D72CB33C19005DF211 /* Rain */ = {
+			isa = PBXGroup;
+			children = (
+				066183BE2CA36F2B0061A2FA /* RAIN.swift */,
+				064124EF2CAB63240064FE8A /* RAINCARD.swift */,
+			);
+			path = Rain;
+			sourceTree = "<group>";
+		};
+		066183A42CA36ED20061A2FA = {
+			isa = PBXGroup;
+			children = (
+				06077E702CB1FFAA0072E9C2 /* AGRI-KOOL-Info.plist */,
+				06077E732CB20B170072E9C2 /* Poppins-Medium.ttf */,
+				066183B02CA36ED20061A2FA /* FRONTApp.swift */,
+				066183CB2CA6157B0061A2FA /* BIENVENIDA.swift */,
+				066183CF2CA72F670061A2FA /* BIENVENIDAFONDO.swift */,
+				0675A04E2CB2FCD60033C5D1 /* FALLING LEAVES.swift */,
+				066183AF2CA36ED20061A2FA /* FRONT */,
+				066183AE2CA36ED20061A2FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		066183AE2CA36ED20061A2FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				066183AD2CA36ED20061A2FA /* AGRI-KOOL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		066183AF2CA36ED20061A2FA /* FRONT */ = {
+			isa = PBXGroup;
+			children = (
+				066183B22CA36ED20061A2FA /* ContentView.swift */,
+				065121D72CB33C19005DF211 /* Rain */,
+				065121D62CB33BF2005DF211 /* Soil */,
+				066183C22CA36F460061A2FA /* CROPS.swift */,
+				065121D02CB31ED9005DF211 /* MAPS.swift */,
+				065121D22CB31F12005DF211 /* MAPVIEW.swift */,
+				06F3B6572CB35E6100CF42AC /* GOALS.swift */,
+				065121D42CB32D24005DF211 /* SoilMoistureData.csv */,
+				06A9D9A62CB27261000C53CD /* MONTHLY GAIN */,
+				067ABD492CB340810061CACF /* Assets.xcassets */,
+				066183B62CA36ED40061A2FA /* Preview Content */,
+			);
+			path = FRONT;
+			sourceTree = "<group>";
+		};
+		066183B62CA36ED40061A2FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				066183B72CA36ED40061A2FA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		06A9D9A62CB27261000C53CD /* MONTHLY GAIN */ = {
+			isa = PBXGroup;
+			children = (
+				06077E752CB23FEC0072E9C2 /* SIGN IN.swift */,
+				06077E772CB2443C0072E9C2 /* NOTIFICATION.swift */,
+				06077E792CB247960072E9C2 /* WhatsApp.swift */,
+				06077E7B2CB2497D0072E9C2 /* Previous.swift */,
+				06077E7D2CB24A450072E9C2 /* Medal.swift */,
+				06077E7F2CB24AE00072E9C2 /* WEEK1.swift */,
+				06077E812CB24C080072E9C2 /* WEEK2.swift */,
+				06077E832CB24C580072E9C2 /* WEEK 3.swift */,
+				06077E852CB24CE30072E9C2 /* WEEK4.swift */,
+				06077E872CB24D9F0072E9C2 /* Greeting.swift */,
+				06077E892CB24E830072E9C2 /* KILO.swift */,
+				06077E8B2CB24F460072E9C2 /* WEATHER.swift */,
+				06077E8D2CB250970072E9C2 /* IRRIGATION.swift */,
+				06077E8F2CB250E90072E9C2 /* MEDAL2.swift */,
+			);
+			path = "MONTHLY GAIN";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		066183AC2CA36ED20061A2FA /* AGRI-KOOL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 066183BB2CA36ED40061A2FA /* Build configuration list for PBXNativeTarget "AGRI-KOOL" */;
+			buildPhases = (
+				066183A92CA36ED20061A2FA /* Sources */,
+				066183AA2CA36ED20061A2FA /* Frameworks */,
+				066183AB2CA36ED20061A2FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AGRI-KOOL";
+			productName = FRONT;
+			productReference = 066183AD2CA36ED20061A2FA /* AGRI-KOOL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		066183A52CA36ED20061A2FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					066183AC2CA36ED20061A2FA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 066183A82CA36ED20061A2FA /* Build configuration list for PBXProject "AGRI-KOOL" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 066183A42CA36ED20061A2FA;
+			productRefGroup = 066183AE2CA36ED20061A2FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				066183AC2CA36ED20061A2FA /* AGRI-KOOL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		066183AB2CA36ED20061A2FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06077E742CB20B170072E9C2 /* Poppins-Medium.ttf in Resources */,
+				066183B82CA36ED40061A2FA /* Preview Assets.xcassets in Resources */,
+				065121D52CB32D24005DF211 /* SoilMoistureData.csv in Resources */,
+				067ABD4B2CB340810061CACF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		066183A92CA36ED20061A2FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06077E882CB24D9F0072E9C2 /* Greeting.swift in Sources */,
+				06077E7E2CB24A450072E9C2 /* Medal.swift in Sources */,
+				06077E822CB24C080072E9C2 /* WEEK2.swift in Sources */,
+				066183C12CA36F360061A2FA /* SOIL.swift in Sources */,
+				066183B32CA36ED20061A2FA /* ContentView.swift in Sources */,
+				06F3B6582CB35E6100CF42AC /* GOALS.swift in Sources */,
+				06077E782CB2443C0072E9C2 /* NOTIFICATION.swift in Sources */,
+				066183C32CA36F460061A2FA /* CROPS.swift in Sources */,
+				06077E862CB24CE30072E9C2 /* WEEK4.swift in Sources */,
+				06A9D9A82CB272EE000C53CD /* SOILDATA.swift in Sources */,
+				065121D32CB31F12005DF211 /* MAPVIEW.swift in Sources */,
+				06077E902CB250E90072E9C2 /* MEDAL2.swift in Sources */,
+				06077E842CB24C580072E9C2 /* WEEK 3.swift in Sources */,
+				066183D02CA72F670061A2FA /* BIENVENIDAFONDO.swift in Sources */,
+				066183BF2CA36F2B0061A2FA /* RAIN.swift in Sources */,
+				06077E7C2CB2497D0072E9C2 /* Previous.swift in Sources */,
+				06077E7A2CB247960072E9C2 /* WhatsApp.swift in Sources */,
+				06077E762CB23FEC0072E9C2 /* SIGN IN.swift in Sources */,
+				064124F02CAB63240064FE8A /* RAINCARD.swift in Sources */,
+				06077E8A2CB24E840072E9C2 /* KILO.swift in Sources */,
+				06077E8E2CB250970072E9C2 /* IRRIGATION.swift in Sources */,
+				06077E8C2CB24F460072E9C2 /* WEATHER.swift in Sources */,
+				065121D12CB31ED9005DF211 /* MAPS.swift in Sources */,
+				0675A04F2CB2FCD60033C5D1 /* FALLING LEAVES.swift in Sources */,
+				066183CC2CA6157B0061A2FA /* BIENVENIDA.swift in Sources */,
+				066183B12CA36ED20061A2FA /* FRONTApp.swift in Sources */,
+				06077E802CB24AE00072E9C2 /* WEEK1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		067ABD492CB340810061CACF /* Assets.xcassets */ = {
+			isa = PBXVariantGroup;
+			children = (
+				067ABD4A2CB340810061CACF /* Base */,
+			);
+			name = Assets.xcassets;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		066183B92CA36ED40061A2FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		066183BA2CA36ED40061A2FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		066183BC2CA36ED40061A2FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FRONT/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AGRI-KOOL-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UDLAP.FRONT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		066183BD2CA36ED40061A2FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FRONT/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AGRI-KOOL-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UDLAP.FRONT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		066183A82CA36ED20061A2FA /* Build configuration list for PBXProject "AGRI-KOOL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				066183B92CA36ED40061A2FA /* Debug */,
+				066183BA2CA36ED40061A2FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		066183BB2CA36ED40061A2FA /* Build configuration list for PBXNativeTarget "AGRI-KOOL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				066183BC2CA36ED40061A2FA /* Debug */,
+				066183BD2CA36ED40061A2FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 066183A52CA36ED20061A2FA /* Project object */;
+}
